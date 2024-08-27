@@ -18,27 +18,27 @@ const Home = (props) => {
 	/* const formattedSeconds = seconds.toString().padStart(6, '0'); */
 
 	return (
-		<div className="container-fluid row">
-			<div className="col">
-				<h1>{clock}</h1>
+		<div className="container-fluid row border bg-black p-4" style={{height: "340px"}}>
+			<div className="col card text-center bg-dark text-white m-3">
+				<h1 style={{fontSize:"200px"}}>{clock}</h1>
 			</div>
-			<div className="col">
-				<h1>{number1}</h1>
+			<div className="col card text-center bg-dark text-white m-3">
+				<h1 style={{fontSize:"200px"}}>{number1}</h1>
 			</div>
-			<div className="col">
-				<h1>{number2}</h1>
+			<div className="col card text-center bg-dark text-white m-3">
+				<h1 style={{fontSize:"200px"}}>{number2}</h1>
 			</div>
-			<div className="col">
-				<h1>{number3}</h1>
+			<div className="col card text-center bg-dark text-white m-3">
+				<h1 style={{fontSize:"200px"}}>{number3}</h1>
 			</div>
-			<div className="col">
-				<h1>{number4}</h1>
+			<div className="col card text-center bg-dark text-white m-3">
+				<h1 style={{fontSize:"200px"}}>{number4}</h1>
 			</div>
-			<div className="col">
-				<h1>{number5}</h1>
+			<div className="col card text-center bg-dark text-white m-3">
+				<h1 style={{fontSize:"200px"}}>{number5}</h1>
 			</div>
-			<div className="col">
-				<h1>{number6}</h1>
+			<div className="col card text-center bg-dark text-white m-3">
+				<h1 style={{fontSize:"200px"}}>{number6}</h1>
 			</div>
 		</div>
 	);
